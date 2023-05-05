@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+  border: 3px steelblue solid;
+  box-shadow: 0 0 30px black;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: bold;
+}
+
+/*Header*/
+header {
+  border-bottom: 3px steelblue solid;
+  padding: 15px 30px;
+  background-image: linear-gradient(white, lightsteelblue);
+}
+
+.shapeUp {
+  font-size: 250%;
+  font-style: italic;
+  color: steelblue;
+  text-shadow: 2px 2px 3px;
+  margin-bottom: .3em;
+  padding-top: 15px;
+}
+
+header img {
+  float: left;
+}
+
+/* Section */
+section {
+  width: 550px;
+  float: left;
+  padding: 25px 30px;
+}
+
+section h1 {
+  font-size: 1.5em;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-top: .3em;
+}
+
+section h3 {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+section a:link, section a:visited {
+  color: maroon;
+}
+
+section a:hover, section a:focus {
+  color: steelblue;
+}
+
+/*Sidebar1*/
+#sidebar1 {
+  float: left;
+  width: 240px;
+  padding: 25px 0 0 30px;
+}
+
+#sidebar1 h2 {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  color: maroon;
+}
+
+#sidebar2 ul {
+  line-height: 1.5;
+  margin: 0;
+}
+
+#sidebar1 a:link, #sidebar1 a:visited {
+  color: steelblue;
+}
+
+#sidebar1 a:hover, #sidebar1 a:focus {
+  color: maroon;
+}
+
+/*Sidebar2*/
+#sidebar2 {
+  float: right;
+  width: 290px;
+  padding: 25px 30px 0 0;
+}
+
+#sidebar2 h2 {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  color: maroon;
+}
+
+#sidebar2 h3 {
+  font-size: 1em;
+  margin-top: .8em;
+  margin-bottom: .3em;
+}
+
+/*footer*/
+footer {
+  font-size: small;
+  text-align: center;
+  padding: 2px;
+  border-top: 3px steelblue solid;
+  background-color: steelblue;
+  color: white;
+  clear: both;
+}
